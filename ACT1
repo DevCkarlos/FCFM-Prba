@@ -1,8 +1,8 @@
-1- Definir una función max() que tome como argumento dos números y devuelva el mayor de ellos. (Es cierto que python tiene una función max() incorporada, pero hacerla nosotros mismos es un muy buen ejercicio.
+1- Definir una función max() que tome como argumento dos números y devuelva el mayor de ellos. (Es cierto que python tiene una función max() incorporada, pero hacerla nosotros mismos es un muy buen ejercicio. # type: ignore
 Solucion:
  
   def mayor(x,y):
-    if(x > y):
+      if(x > y):
         return x
     if(y > x):
         return y
@@ -10,7 +10,7 @@ Solucion:
 2- Definir una función max_de_tres(), que tome tres números como argumentos y devuelva el mayor de ellos. 
 Solucion:
   
-  def mayor3(a,b,c):
+  def mayor3(x,y,z):
     if((x > y) and (x > z)):
         return x
     if((y > x) and (y > z)):
