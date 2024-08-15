@@ -1,1 +1,8 @@
 Definir una funcion max() que tome como argumento dos numeros y devuelva el mayor de ellos. (Es cierto que Python tiene una funcion max() incorporada, pero hacerla nosotros mismos es un muy buen ejercicio).
+def max (x, y):
+    if x < y:
+         print y
+    if y < x:
+         print x     
+    else         
+    print "Son iguales"
